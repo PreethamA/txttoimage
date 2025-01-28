@@ -8,8 +8,7 @@ API_URL = os.environ.get("API_URL")
 api_key = os.environ.get("api_key")
 headers = {"Authorization": f"Bearer {api_key}"}
 
-print(headers)
-print(API_URL)
+
 def query(payload):
 	response = requests.post(API_URL, headers=headers, json=payload)
 	return response.content

@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="63587b2f-8925-41f8-a4fb-2717cfc5efef" name="Changes" comment="intiallizing the git repo">
-      <change afterPath="$PROJECT_DIR$/genai.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="63587b2f-8925-41f8-a4fb-2717cfc5efef" name="Changes" comment="txt to image">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -86,11 +84,44 @@
       <option name="project" value="LOCAL" />
       <updated>1737891439041</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="txt to image">
+      <created>1738007138091</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1738007138091</updated>
+    </task>
+    <task id="LOCAL-00004" summary="txt to image">
+      <created>1738007207511</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1738007207511</updated>
+    </task>
+    <task id="LOCAL-00005" summary="txt to image">
+      <created>1738007259183</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1738007259183</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="intiallizing the git repo" />
-    <option name="LAST_COMMIT_MESSAGE" value="intiallizing the git repo" />
+    <MESSAGE value="txt to image" />
+    <option name="LAST_COMMIT_MESSAGE" value="txt to image" />
   </component>
 </project>
