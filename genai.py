@@ -14,7 +14,7 @@ def query(payload):
 	return response.content
 
 image_bytes = query({
-	"inputs": "Astronaut riding a donkey",
+	"inputs": "monkey riding a horse",
 })
 
 # You can access the image with PIL.Image for example
