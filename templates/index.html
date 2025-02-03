@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Text to Image</title>
+</head>
+<body>
+    <h1>Enter Text</h1>
+    <form method="POST">
+        <input type="text" name="text">
+        <input type="submit" value="Generate Image">
+    </form>
+
+    {% if image_path %}
+        <h2>Generated Image:</h2>
+        <img src="{{ image_path }}" alt="Generated Image">
+    {% endif %}
+
+</body>
+</html>

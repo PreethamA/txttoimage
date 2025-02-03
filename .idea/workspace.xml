@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="63587b2f-8925-41f8-a4fb-2717cfc5efef" name="Changes" comment="txt to GENAI image">
+    <list default="true" id="63587b2f-8925-41f8-a4fb-2717cfc5efef" name="Changes" comment="change in image">
+      <change beforePath="$PROJECT_DIR$/.idea/txttovid.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/txttovid.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/genai.py" beforeDir="false" afterPath="$PROJECT_DIR$/genai.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out.png" beforeDir="false" afterPath="$PROJECT_DIR$/out.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +35,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "/Users/preethamarmoor/Projects/txttovid",
     "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
@@ -114,7 +114,14 @@
       <option name="project" value="LOCAL" />
       <updated>1738093030605</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="change in image">
+      <created>1738264427175</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1738264427175</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -132,6 +139,7 @@
     <MESSAGE value="intiallizing the git repo" />
     <MESSAGE value="txt to image" />
     <MESSAGE value="txt to GENAI image" />
-    <option name="LAST_COMMIT_MESSAGE" value="txt to GENAI image" />
+    <MESSAGE value="change in image" />
+    <option name="LAST_COMMIT_MESSAGE" value="change in image" />
   </component>
 </project>
