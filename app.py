@@ -1,6 +1,16 @@
 from flask import Flask, render_template, request, send_from_directory
 import os
 from PIL import Image, ImageDraw, ImageFont
+import requests
+import io
+from datetime import datetime
+
+from dotenv import load_dotenv,find_dotenv
+
+load_dotenv(find_dotenv(".env"))
+API_URL = os.environ.get("API_URL")
+api_key = os.environ.get("api_key")
+headers = {"Authorization": f"Bearer {api_key}"}
 
 app = Flask(__name__)
 
@@ -10,7 +20,9 @@ app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
 
 # Create the directory if it doesn't exist
 os.makedirs(UPLOAD_FOLDER, exist_ok=True)
-
+def query(payload):
+	response = requests.post(API_URL, headers=headers, json=payload)
+	return response.content
 
 @app.route('/', methods=['GET', 'POST'])
 def index():
@@ -18,9 +30,10 @@ def index():
     if request.method == 'POST':
         text = request.form['text']
         if text:
-            image_path = generate_image(text)  # Generate and save the image
-            image_path = os.path.join(app.config['UPLOAD_FOLDER'], os.path.basename(
-                image_path))  # Path relative to static folder. Important for send_from_directory
+            image_path = query(text)  # Generate and save the image
+            j = Image.open(io.BytesIO(image_path))
+
+            image_path = os.path.join(app.config['UPLOAD_FOLDER'], os.path.basename(j.save(f'out_'+{datetime.now.strftime("%d_%m_%Y_%H_%M_%S")}+'.png')))  # Path relative to static folder. Important for send_from_directory
 
             # You could also return the image data directly (base64 encoded) to avoid saving to disk, but it's more complex.
             # See the alternative example below.
@@ -50,7 +63,7 @@ def generate_image(text):
     draw.text((x, y), text, fill=(0, 0, 0), font=font)  # Black text
 
     # Save the image
-    image_filename = "generated_image.png"  # Or use a timestamp for unique names
+    image_filename = "generated_image_"++".png"  # Or use a timestamp for unique names
     image_path = os.path.join(app.config['UPLOAD_FOLDER'], image_filename)
     img.save(image_path)
 

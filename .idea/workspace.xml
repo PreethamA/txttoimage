@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="63587b2f-8925-41f8-a4fb-2717cfc5efef" name="Changes" comment="change in image">
-      <change beforePath="$PROJECT_DIR$/.idea/txttovid.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/txttovid.iml" afterDir="false" />
+    <list default="true" id="63587b2f-8925-41f8-a4fb-2717cfc5efef" name="Changes" comment="change in input format">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,14 +31,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "/Users/preethamarmoor/Projects/txttovid",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/preethamarmoor/Projects/txttovid&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="genai" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="txttovid" />
@@ -121,7 +122,14 @@
       <option name="project" value="LOCAL" />
       <updated>1738264427175</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="change in input format">
+      <created>1738610424387</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1738610424387</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -140,6 +148,7 @@
     <MESSAGE value="txt to image" />
     <MESSAGE value="txt to GENAI image" />
     <MESSAGE value="change in image" />
-    <option name="LAST_COMMIT_MESSAGE" value="change in image" />
+    <MESSAGE value="change in input format" />
+    <option name="LAST_COMMIT_MESSAGE" value="change in input format" />
   </component>
 </project>
