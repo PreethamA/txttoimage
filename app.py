@@ -35,8 +35,7 @@ def index():
 
             image_path = os.path.join(app.config['UPLOAD_FOLDER'], os.path.basename(j.save(f'out_'+{datetime.now.strftime("%d_%m_%Y_%H_%M_%S")}+'.png')))  # Path relative to static folder. Important for send_from_directory
 
-            # You could also return the image data directly (base64 encoded) to avoid saving to disk, but it's more complex.
-            # See the alternative example below.
+
 
     return render_template('index.html', image_path=image_path)
 
