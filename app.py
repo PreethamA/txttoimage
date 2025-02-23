@@ -42,7 +42,7 @@ def index():
                 image.save(buffered, format="JPEG")  # Or PNG, GIF, etc. - match your image type
                 image_base64 = base64.b64encode(buffered.getvalue()).decode("utf-8")
 
-                image_data = image_base64  # image_data is now a base64 string
+                image_data = image_base64  # image_data is now a base64
 
             except requests.exceptions.RequestException as e:
                 error_message = f"Error communicating with inference API: {e}"
